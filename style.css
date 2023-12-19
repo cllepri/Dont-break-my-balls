@@ -7,17 +7,17 @@
     font-family: 'Silkscreen', sans-serif;
 }
 label{
-    font-size: 0.6rem;
+    font-size: 1rem;
     margin-bottom: 4px;
 }
 span{
-    font-size: 0.5rem;
+    font-size: 0.7rem;
 }
 .controles{
     display: flex;
     justify-content: flex-start;
     align-items: stretch;
-    width: 100%;
+    /* width: 100%; */
     background-color:  #eee;
     border: 2px solid #000;
     border-radius: 5px;
@@ -42,27 +42,17 @@ p{
 .controle{
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
-    align-items: flex-start;
     width: 100%;
-    background-color: #fff;
-    border: 2px solid #888;
-    border-radius: 5px;
     padding: 5px;
     margin: 5px;
 
 }
 button {
     cursor: pointer;
-    background-color: #888;
     color: #fff;
     padding: 5px;
     border-radius: 5px;
     background-color: blue;
-}
-button#btn_remover{
-     background-color: blue;
-     
 }
 input[type='number'], #num_objetos {
     padding: 5px;
