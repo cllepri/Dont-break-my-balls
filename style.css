@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 *{
     border: none;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Silkscreen', sans-serif;
+}
+label{
+    font-size: 0.6rem;
+    margin-bottom: 4px;
+}
+span{
+    font-size: 0.5rem;
 }
 .controles{
     display: flex;
@@ -12,12 +21,28 @@
     background-color:  #eee;
     border: 2px solid #000;
     border-radius: 5px;
+    background-color: rgb(228, 226, 226);
 
+}
+#add{
+    background-color: burlywood;
+}
+#Objects{
+    background-color: rgb(154, 216, 103);
+}
+#remove{
+    background-color: rgb(196, 51, 51);
+    display: flex;
+    align-items: left;
+    justify-content:end;
+}
+p{
+    background-color: white;
 }
 .controle{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:flex-start;
     align-items: flex-start;
     width: 100%;
     background-color: #fff;
@@ -33,7 +58,11 @@ button {
     color: #fff;
     padding: 5px;
     border-radius: 5px;
-
+    background-color: blue;
+}
+button#btn_remover{
+     background-color: blue;
+     
 }
 input[type='number'], #num_objetos {
     padding: 5px;
@@ -48,7 +77,7 @@ input[type='number'], #num_objetos {
    min-height: 100vh;
    min-height: fill-available;
    min-height: -webkit-fill-available;
-    background-color: #030303;
+    background-color: #f8eded;
     border: 2px solid #000000;
     border-radius: 5px;
     position: absolute;
